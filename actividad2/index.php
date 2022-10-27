@@ -9,8 +9,6 @@
             $_SESSION['nombre'] = $nombre;
             $_SESSION['anno'] = $anno;
 
-            
-
             header("Location:altura_peso.php");
         }else{
             echo "Revisa los datos";
